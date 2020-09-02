@@ -1,0 +1,7 @@
+---
+install_dnsdist:
+  packages:
+    common: &packages
+      - name: "dnsdist"
+    debian_armv7l: *packages
+    debian_x86_64: *packages
